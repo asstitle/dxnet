@@ -1,0 +1,368 @@
+/*banner*/
+.banner_1{
+	width: 100%;
+	height: 560px;
+	background: url(../image/banner_1_bg3.png) no-repeat center center;
+	background-size: cover;
+	padding-top: 1px;
+}
+.banner_1_cont{
+	width: 100%;
+	height: 100%;
+	background: rgba(18,25,41,0.3);
+	padding-top: 1px;
+	box-sizing: border-box;
+}
+.banner_1_cont h1{
+	line-height: 1;
+	margin-top: 200px;
+	font-size:52px;
+	font-weight: bold;
+	color:rgba(255,255,255,1);
+	text-align: center;
+}
+.banner_1_cont h2{
+	line-height: 1;
+	font-size:32px;
+	font-weight: normal;
+	color:rgba(255,255,255,1);
+	margin-top: 20px;
+	text-align: center;
+}
+/*公司介绍信息*/
+.info_box{
+	overflow: hidden;
+	padding-top:144px;
+}
+.info_box .f_left,.info_box .f_right{
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
+}
+.info_box .f_left,.info_box .f_right{
+	padding:0 96px;
+}
+.info_box .f_left h1,.info_box .f_right h1{
+	font-size:36px;
+	font-weight:500;
+	color:rgba(18,25,41,1);
+	line-height: 1;
+}
+.info_box .f_left h2,.info_box .f_right h2{
+	font-size:20px;
+	color:rgba(18,25,41,1);
+	margin-top: 8px;
+	line-height: 1;
+}
+.info_box .f_left p,.info_box .f_right p{
+	line-height: 1.5;
+	font-size:14px;
+	color:rgba(18,25,41,1);
+	margin-bottom: 16px;
+}
+.info_box .f_left b,.info_box .f_right b{
+	line-height: 1.5;
+	font-size:14px;
+	color:rgba(18,25,41,1);
+	font-weight: bold;
+	display: block;
+}
+.info_box .f_left .line2,.info_box .f_right .line2{
+	width:50px;
+	height:6px;
+	background:rgba(43,101,176,1);
+	display: block;
+	margin: 22px 0;
+}
+.info_box .right_text_box{
+	float: right;
+}
+
+/*公司实力*/
+.our_power{
+	width:100%;
+	height:400px;
+	background:rgba(40,101,181,1);
+	position: relative;
+}
+.our_power > img{
+	width: 100% !important;
+	height: 100% !important;
+	margin: 0 auto;
+}
+.our_power > img + div{
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left:0;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding-top: 96px;
+}
+.our_power > img + div h1{
+	font-size:36px;
+	color:rgba(255,255,255,1);
+	text-align: center;
+}
+.our_power > img + div p{
+	font-size:14px;
+	color:rgba(255,255,255,1);
+	text-align: center;
+	line-height: 1.5;
+	margin-top: 32px;
+}
+.power_num{
+	background:rgba(255,255,255,1);
+	box-shadow:0px 12px 16px -4px rgba(202,201,200,0.1);
+	border-radius:8px;
+	padding:36px 48px;
+	box-sizing: border-box;
+	top: 320px;
+	left: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	z-index: 9;
+	overflow: hidden;
+	text-align: center;
+}
+.power_num div{
+	height: 80px;
+	width: 20%;
+	border-right: 1px solid #DCE0E6;
+	display: inline-block;
+	box-sizing: border-box;
+	padding:0 56px;
+	vertical-align: top;
+	margin-right: -4px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.power_num div:last-child{
+	border:0 none;
+}
+.power_num div h1,.power_num div h2{
+	text-align: center;
+	font-size:24px;
+	font-weight:bold;
+	color:#121929;
+	line-height: 1.2;
+}
+.power_num div h2{
+	font-size:14px;
+	color:#61646C;
+	margin-top: 16px;
+}
+.power_num div a{
+	font-size: 14px;
+	line-height: 1;
+	margin-top: 8px;
+	color: #2865B5;
+	display: block;
+	text-align: center;
+}
+/*照片集*/
+.company_photo{
+	padding-top: 120px;
+}
+.company_photo h1,.company_photo p{
+	text-align: center;
+	color: #121929;
+	line-height: 1;
+	font-size: 36px;
+}
+.company_photo p{
+	margin-top: 16px !important;
+	font-size: 16px;
+}
+/*联系我们*/
+.link_us{
+	width: 100%;
+	height: 422px;
+	background:#F7F9FC; 
+	position: relative;
+}
+.link_us > img{
+	width: 100% !important;
+	height: auto !important;
+}
+.link_us > div{
+	padding-top: 144px;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+}
+.link_us > div h1{
+	font-size:36px;
+	color:rgba(18,25,41,1);
+	line-height:1;
+	text-align: center;
+}
+.link_us > div h2{
+	font-size:28px;
+	color:rgba(18,25,41,1);
+	line-height:1;
+	margin-top: 12px;
+	text-align: center;
+}
+.link_us > div a{
+	width:128px;
+	height:44px;
+	background:rgba(43,101,176,1);
+	display: block;
+	margin:0 auto;
+	margin-top:32px;
+	display: block;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	text-align: center;
+	line-height: 44px;
+}
+@media (max-width: 1439px){
+	.banner_1{
+		height: 400px;
+	}
+	.banner_1_cont h1{
+		font-size: 40px;
+		margin-top: 144px;
+	}
+	.info_box .f_left,.info_box .f_right{
+		padding:0 32px;
+	}
+	.f_left img,.f_right img{
+		width: 100%;
+	}
+	.right_text_box{
+		padding-left: 0;
+	}
+}
+/*768-1200*/
+@media (max-width: 1199px){
+	.info_box .f_left h1, .info_box .f_right h1{
+		font-size: 32px;
+	}
+	.info_box .f_left h2, .info_box .f_right h2{
+		font-size: 16px;
+	}
+	.f_left img,.f_right img{
+		margin-top: 110px;
+	}
+	.power_num{
+		width: calc(100% - 48px);
+		top:264px;
+	}
+	.power_num div{
+		width: 33.3%;
+		padding: 0 32px;
+	}
+	.power_num div:nth-child(3n){
+		border:0 none;
+	}
+	.company_photo{
+		padding-top: 200px;
+	}
+}
+/*480-768*/
+@media (max-width: 768px){
+	.info_box .f_left, .info_box .f_right{
+		width: 100%;
+	}
+	.banner_1_cont h1{
+		font-size: 32px;
+	}
+	.banner_1_cont h2{
+		font-size: 20px;
+	}
+	.banner_1_cont a{
+		width: 200px;
+		height: 56px;
+		font-size: 18px;
+		line-height: 56px;
+	}
+	.f_left img, .f_right img{
+		margin-top: 20px;
+	}
+	.info_box .sc_float{
+		float: right;
+	}
+	.info_box{
+		padding-top: 96px;
+	}
+	.power_num div{
+		width: 50%;
+		padding: 0 32px;
+	}
+	.power_num div:nth-child(3n){
+		border-right:1px solid #DCE0E6;
+	}
+	.power_num div:nth-child(2n){
+		border:0 none;
+	}
+	.company_photo{
+		padding-top: 320px;
+	}
+	.our_power > img + div p{
+		padding:0 24px;
+		margin-top: 12px;
+	}
+}
+/*小于480*/
+@media (max-width: 480px){
+	.info_box .f_left, .info_box .f_right{
+		padding:0;
+	}
+	.banner_1_cont h1{
+		font-size: 24px;
+		margin-top: 132px;
+	}
+	.banner_1{
+		height: 320px;
+	}
+	.banner_1_cont h2{
+		font-size: 14px;
+	}
+	.banner_1_cont a{
+		width: 144px;
+		height: 44px;
+		line-height: 44px;
+		font-size:16px;
+		margin-top: 40px;
+	}
+	.our_power > img + div h1{
+		font-size: 24px;
+	}
+	.power_num{
+		top:320px;
+	}
+	.power_num div{
+		width: 100%;
+		padding: 0 32px;
+	}
+	.power_num div{
+		border:0 none !important;
+	}
+	.company_photo{
+		padding-top: 320px;
+	}
+	.company_photo{
+		padding-top: 560px;
+	}
+	.company_photo h1{
+		font-size: 24px;
+	}
+	.content_view > div > p{
+		font-size: 14px;
+	}
+	.link_us > div h1{
+		font-size: 24px;
+	}
+	.link_us > div h2{
+		font-size: 20px;
+	}
+}
+
+

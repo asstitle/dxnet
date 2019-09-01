@@ -1,0 +1,65 @@
+<form id="add-form" class="form-horizontal" role="form" data-toggle="validator" method="POST" action="">
+    <div class="form-group">
+        <label for="c-type" class="control-label col-xs-12 col-sm-2">类别</label>
+        <div class="col-xs-12 col-sm-8">
+
+
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-name" class="control-label col-xs-12 col-sm-2">标题:</label>
+        <div class="col-xs-12 col-sm-8">
+            <input id="c-name" data-rule="required" class="form-control" name="title" type="text" value="">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-avatar" class="control-label col-xs-12 col-sm-2">背景图片:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-avatar" data-rule="" class="form-control" size="50" name="bg_img" type="text" value="">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-avatar" class="btn btn-danger plupload" data-input-id="c-avatar" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-avatar"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-avatar"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-avatar"></ul>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="c-avatar" class="control-label col-xs-12 col-sm-2">小图片:</label>
+        <div class="col-xs-12 col-sm-8">
+            <div class="input-group">
+                <input id="c-avatars" data-rule="" class="form-control" size="50" name="bg_small_img" type="text" value="">
+                <div class="input-group-addon no-border no-padding">
+                    <span><button type="button" id="plupload-avatars" class="btn btn-danger plupload" data-input-id="c-avatars" data-mimetype="image/gif,image/jpeg,image/png,image/jpg,image/bmp" data-multiple="false" data-preview-id="p-avatars"><i class="fa fa-upload"></i> {:__('Upload')}</button></span>
+                </div>
+                <span class="msg-box n-right" for="c-avatars"></span>
+            </div>
+            <ul class="row list-inline plupload-preview" id="p-avatars"></ul>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="c-name" class="control-label col-xs-12 col-sm-2">描述:</label>
+        <div class="col-xs-12 col-sm-8">
+            <textarea data-rule="required" class="form-control" name="description" type="text" value=""></textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="c-name" class="control-label col-xs-12 col-sm-2">内容:</label>
+        <div class="col-xs-12 col-sm-8">
+
+            <textarea class="editor" name="article_content"></textarea>
+
+        </div>
+    </div>
+
+    <div class="form-group layer-footer">
+        <label class="control-label col-xs-12 col-sm-2"></label>
+        <div class="col-xs-12 col-sm-8">
+            <button type="submit" class="btn btn-success btn-embossed disabled">添加</button>
+            <button type="reset" class="btn btn-default btn-embossed">重置</button>
+        </div>
+    </div>
+</form>

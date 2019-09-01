@@ -1,0 +1,145 @@
+/*banner*/
+.banner_1{
+	width: 100%;
+	height: 560px;
+	background: url(../image/banner_1_bg4.png) no-repeat center center;
+	background-size: cover;
+	padding-top: 1px;
+}
+.banner_1_cont{
+	width: 100%;
+	height: 100%;
+	background: rgba(18,25,41,0.3);
+	padding-top: 1px;
+	box-sizing: border-box;
+}
+.banner_1_cont h1{
+	line-height: 1;
+	margin-top: 160px;
+	font-size:52px;
+	font-weight: bold;
+	color:rgba(255,255,255,1);
+	text-align: center;
+}
+.banner_1_cont h2{
+	line-height: 1;
+	font-size:32px;
+	font-weight: normal;
+	color:rgba(255,255,255,1);
+	margin-top: 20px;
+	text-align: center;
+}
+.banner_1_cont a{
+	display: block;
+	width:220px;
+	height:72px;
+	background:rgba(50,111,191,1);
+	border-radius:2px;
+	margin: 0 auto;
+	transition: all 0.25s ease-out;
+	line-height: 72px;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	margin-top: 72px;
+}
+.banner_1_cont a:hover{
+	background:#2d74d2;
+}
+/*联系方式*/
+.left_box,.right_box{
+	width:50%;
+	float: left;
+}
+.left_box h1,.right_box h1{
+	font-size:24px;
+	font-weight:bold;
+	color:rgba(50,58,61,1);
+	line-height:24px;
+	margin-top: 48px;
+}
+.left_box > div{
+	padding-top: 24px;
+}
+.left_box > div img,.left_box > div div{
+	display: inline-block;
+}
+.left_box > div div{
+	margin-left: 8px;
+}
+.left_box > div img{
+	margin-top: 12px;
+	vertical-align: top;
+}
+.left_box > div span{
+	font-size:16px;
+	color:rgba(50,58,61,1);
+	display: block;
+}
+.left_box > div i{
+	font-size:20px;
+	font-weight:bold;
+	color:rgba(50,58,61,1);
+}
+.left_box > div > div img{
+	display: block;
+}
+/*地图盒子*/
+.right_box > div{
+	width: 100%;
+	height: 360px;
+	background: #fafafa;
+	margin-top: 24px;
+}
+@media (max-width: 1439px){
+	.banner_1{
+		height: 400px;
+	}
+	.banner_1_cont h1{
+		font-size: 40px;
+		margin-top: 144px;
+	}
+}
+/*768-1200*/
+@media (max-width: 1199px){
+
+}
+/*480-768*/
+@media (max-width: 768px){
+	.banner_1_cont h1{
+		font-size: 32px;
+	}
+	.banner_1_cont h2{
+		font-size: 20px;
+	}
+	.banner_1_cont a{
+		width: 200px;
+		height: 56px;
+		font-size: 18px;
+		line-height: 56px;
+	}
+	.left_box, .right_box{
+		width: 100%;
+	}
+}
+/*小于480*/
+@media (max-width: 480px){
+	.banner_1_cont h1{
+		font-size: 24px;
+		margin-top: 132px;
+	}
+	.banner_1{
+		height: 320px;
+	}
+	.banner_1_cont h2{
+		font-size: 14px;
+	}
+	.banner_1_cont a{
+		width: 144px;
+		height: 44px;
+		line-height: 44px;
+		font-size:16px;
+		margin-top: 40px;
+	}
+}

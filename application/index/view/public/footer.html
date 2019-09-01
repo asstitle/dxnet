@@ -1,0 +1,69 @@
+<div class="footer" id="footer">
+    <div class="content_box">
+        <div class="footer_content">
+            <img src="__PUBLIC__image/logo_n.png" class="logo_n">
+            <ul>
+                <li>
+                    <h1>解决方案</h1>
+                    <a href="">人脸识别</a>
+                    <a href="">人体识别</a>
+                    <a href="">图像识别</a>
+                    <a href="">文字识别</a>
+                </li>
+                <li>
+                    <h1>产品服务</h1>
+                    <a href="">产品服务1</a>
+                    <a href="">产品服务2</a>
+                    <a href="">产品服务3</a>
+                    <a href="">产品服务4</a>
+                </li>
+                <li>
+                    <h1>更多</h1>
+                    <a href="{:url('Example/exampleCenter')}">案例中心</a>
+                    <a href="{:url('Develop/develop')}">开发服务</a>
+                    <a href="{:url('About/aboutus')}">关于我们</a>
+                </li>
+            </ul>
+            <div class="code">
+                <img src="__PUBLIC__image/code.png">
+                <span>扫码联系我们</span>
+            </div>
+            <div class="contact_us">
+                <span>138 8027 3017</span>
+                <span>digitaltop@qq.com</span>
+                <span><i>成都市 武侯区</i><br/>二环路南三段1号祥福苑大厦东楼2106</span>
+            </div>
+        </div>
+        <p><i>友情链接：</i><a href="">XNVISION设计</a>  <a href="">环企优站</a>  <a href="">IFAVART</a>  <a href="">UI设计</a></p>
+    </div>
+    <p>©Copyright 2017 TingSun版权所有 蜀ICP备16022322号 技术支持:顶想网络</p>
+    <div class="fixBtn" id="rCtrl" style="display: none;">
+        <div class="toTop">
+            <a href="#header" title="返回顶部"></a>
+        </div>
+        <div class="contact">
+            <a href="" title="电话号码"><div>138 8027 3017</div></a>
+            <a href="" title="qq"></a>
+            <a href="" title="微信"><div><img src="__PUBLIC__image/code.png"><span>微信扫码联系我们</span></div></a>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    //头部汉堡按钮控制显示隐藏
+    var headH=function(){
+        var tabTop=document.getElementById("tabBox");
+        if(tabTop.className=="header_hid"){
+            tabTop.className="header_show"
+        }else{
+            tabTop.className="header_hid"
+        }
+    }
+    //右下浮动块
+    var rCtrl = document.getElementById('rCtrl');
+    //获取初始class
+    var clasN=rCtrl.className;
+    //动态监听屏幕
+    window.addEventListener("scroll",function(){
+        screenH(rCtrl,"fixBtn_sel",clasN);
+    })
+</script>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <mata charset="UTF-8"></mata>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-comp">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>顶想网络——成就你的梦想</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__css/public.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__css/contant.css">
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+    <script type="text/javascript" src="__PUBLIC__js/screen.js"></script>
+</head>
+<body>
+{include file="public/header" /}
+<div class="banner_1">
+    <div class="banner_1_cont">
+        <h1>期待与您的合作</h1>
+        <h2>Looking forward to cooperating with you</h2>
+    </div>
+</div>
+<div class="content_view">
+    <div class="content_box" style="overflow: hidden;">
+        <div class="left_box">
+            <h1>联系方式</h1>
+            <div>
+                <img src="__PUBLIC__image/icon_phone.png">
+                <div>
+                    <span>手机号码：</span>
+                    <i>{$data.tel}</i>
+                </div>
+            </div>
+            <div>
+                <img src="__PUBLIC__image/icon_g.png">
+                <div>
+                    <span>固定电话：</span>
+                    <i>{$data.telphone}</i>
+                </div>
+            </div>
+            <div>
+                <img src="__PUBLIC__image/icon_email.png">
+                <div>
+                    <span>邮箱地址：</span>
+                    <i>{$data.email}</i>
+                </div>
+            </div>
+            <div>
+                <img src="__PUBLIC__image/icon_wechat.png">
+                <div>
+                    <span>微信二维码：</span>
+                    <img src="{$data.qr_code}">
+                </div>
+            </div>
+        </div>
+        <div class="right_box">
+            <h1>企业地址</h1>
+            <div id="mapB"></div>
+        </div>
+    </div>
+</div>
+{include file="public/footer" /}
+<script type="text/javascript">
+    //百度地图
+    var map = new BMap.Map("mapB");
+    var point = new BMap.Point("104.06792346,30.67994285");
+    map.centerAndZoom(point,15);
+    var marker = new BMap.Marker(new BMap.Point("104.06792346,30.67994285"));
+    function add_overlay(){
+        map.addOverlay(marker);
+    }
+    window.onload = add_overlay();
+</script>
+</body>
+</html>

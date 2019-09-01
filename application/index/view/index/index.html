@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <mata charset="UTF-8"></mata>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="renderer" content="webkit|ie-comp">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>顶想网络——成就你的梦想</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__css/public.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__css/index.css">
+    <script type="text/javascript" src="__PUBLIC__js/screen.js"></script>
+    <script type="text/javascript" src="__PUBLIC__js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+{include file="public/header" /}
+<div class="banner">
+    <div class="banner_cont">
+        <div class="banner_list">
+            <!--限制内容盒子-->
+            <div class="content_box" style="position: relative; height: 100%;padding-top: 16vh; box-sizing: border-box;">
+                <h1>CHOOSE THE TINGSUN<br/>MAKE THE DREAM COME TRUE</h1>
+                <h2 style="font-weight: bold;">选择顶想，成就梦想</h2>
+                <a href="">一站式软件开发</a>
+                <p><span>解决方案</span><span>企业建站</span><span>App开发</span><span>H5开发</span><span>小程序开发</span></p>
+                <div class="play_cont">
+                    <img src="__PUBLIC__image/player.png">
+                    <span>点击观看完整视频</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content_box banner_ctl" id="banner_ctl">
+        <div class="banner_ctl_til">
+            <div class="btn">
+                <span class="left"></span>
+                <span class="right"></span>
+            </div>
+            <div class="tips">
+                <span class="sel"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div id="banner_ctl_cont" class="banner_ctl_cont" style="top:240px;opacity: 0;">
+            <img src="__PUBLIC__image/ourLinkBg.png">
+            <div class="">
+                <h1>助力梦想启航</h1>
+                <h2>我们为实现你的创意而生</h2>
+                <p>Existence <br/>for your creativity</p>
+                <img class="specialimg" src="__PUBLIC__image/ourImg.png">
+                <a href=""></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="localtips" style="height: 400px"></div>
+<div class="ourslogen">
+    <div class="content_box" style="position: relative;height: 618px;">
+        <img src="__PUBLIC__image/ourslogen.png" class="slogen">
+        <img src="__PUBLIC__image/slogen.png" class="slogen1">
+        <p>our service<br/><span>App / Web / Design / H5 / Wechat</span></p>
+    </div>
+    <img src="__PUBLIC__image/slogenBg.png" class="ourslogen_bg">
+</div>
+<div class="localtips" style="height: 400px"></div>
+<div class="content_view">
+    <div class="content_box">
+        <img src="__PUBLIC__image/tit1.png" class="view_title">
+        <div class="bisness_til">
+            <h1 name="tab_nol" class="tab_sel" onclick="oHid(this)">解决方案</h1>
+            <h1 name="tab_nol" onclick="oHid(this)">产品服务</h1>
+        </div>
+        <div class="bisness">
+            <ul>
+                <li class="list4">
+                    <div class="bisness_list">
+                        <img src="__PUBLIC__image/serviceBg1.png">
+                        <div>
+                            <img src="__PUBLIC__image/serviceIcon1.png">
+                            <h1>人脸识别</h1>
+                            <p>任意一幅给定的图像，采用智能策略对其进行搜索以确定其中是否含有人脸，如果是则返回人脸的位置、大小和属性分析结果…</p>
+                            <span>进一步了解</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="list4">
+                    <div class="bisness_list">
+                        <img src="__PUBLIC__image/serviceBg2.png">
+                        <div>
+                            <img src="__PUBLIC__image/serviceIcon2.png">
+                            <h1>人体识别</h1>
+                            <p>人像分割是指对图片或视频中的半身人体轮廓范围进行识别，将其与背景进行分离。可应用于人像抠图、照片合成、人像特效等场景。</p>
+                            <span>进一步了解</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="list4">
+                    <div class="bisness_list">
+                        <img src="__PUBLIC__image/serviceBg3.png">
+                        <div>
+                            <img src="__PUBLIC__image/serviceIcon3.png">
+                            <h1>图像识别</h1>
+                            <p>准确快速地检测图像中的内容信息，返回检测出的内容名称以及相应置信度。标签范围涵盖近两百种热词，囊括了社交生活、人物、风景、建…</p>
+                            <span>进一步了解</span>
+                        </div>
+                    </div>
+                </li>
+                <li class="list4">
+                    <div class="bisness_list">
+                        <img src="__PUBLIC__image/serviceBg4.png">
+                        <div>
+                            <img src="__PUBLIC__image/serviceIcon4.png">
+                            <h1>文字识别</h1>
+                            <p>优图基于业界领先的深度学习技术，为用户提供图片内多种语言文字自动检测和识别服务，返回语种类型、文字框位置与文字内容，无需用户…</p>
+                            <span>进一步了解</span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!-- 				<div class="page">
+                                <a href="" class="left"></a>
+                                <div>
+                                    <span class="sel"></span>
+                                    <span></span>
+                                </div>
+                                <a href="" class="right sel"></a>
+                            </div> -->
+        </div>
+        <div class="bisness bisness_none">
+            <ul>
+                <li class="list4">
+                    <div class="bisness_list">
+                        <img src="__PUBLIC__image/serviceBg1.png">
+                        <div class="b_pro">
+                            <h2>产品1</h2>
+                        </div>
+                    </div>
+                </li>
+                <li class="list4">
+                    <div class="bisness_list">
+                        <img src="__PUBLIC__image/serviceBg2.png">
+                        <div class="b_pro">
+                            <h2>产品2</h2>
+                        </div>
+                    </div>
+                </li>
+                <li class="list4">
+                    <div class="bisness_list">
+                        <img src="__PUBLIC__image/serviceBg3.png">
+                        <div class="b_pro">
+                            <h2>产品3</h2>
+                        </div>
+                    </div>
+                </li>
+                <li class="list4">
+                    <div class="bisness_list">
+                        <img src="__PUBLIC__image/serviceBg4.png">
+                        <div class="b_pro">
+                            <h2>产品4</h2>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!-- 				<div class="page">
+                                <a href="" class="left"></a>
+                                <div>
+                                    <span class="sel"></span>
+                                    <span></span>
+                                </div>
+                                <a href="" class="right sel"></a>
+                            </div> -->
+        </div>
+    </div>
+    <img src="__PUBLIC__image/viewBg1.png" class="right">
+</div>
+<div class="localtips" style="height: 400px"></div>
+<div class="content_view">
+    <div class="content_box">
+        <img src="__PUBLIC__image/tit2.png" class="view_title">
+        <p>雄厚的开发实力及多年的快速开发经验，给你提供快捷又稳定的开发方案</p>
+        <div class="plan">
+            <ul>
+                <li class="list6">
+                    <div class="plan_list">
+                        <img src="__PUBLIC__image/business1.png"><span>高新技术企业</span>
+                    </div>
+                </li>
+                <li class="list6">
+                    <div class="plan_list">
+                        <img src="__PUBLIC__image/business2.png"><span>5年+经验开发团队</span>
+                    </div>
+                </li>
+                <li class="list6">
+                    <div class="plan_list">
+                        <img src="__PUBLIC__image/business3.png"><span>50项+软件著作权</span>
+                    </div>
+                </li>
+                <li class="list6">
+                    <div class="plan_list">
+                        <img src="__PUBLIC__image/business4.png"><span>全球2000+客户选择</span>
+                    </div>
+                </li>
+                <li class="list6">
+                    <div class="plan_list">
+                        <img src="__PUBLIC__image/business5.png"><span>全方位定制服务</span>
+                    </div>
+                </li>
+                <li class="list6">
+                    <div class="plan_list">
+                        <img src="__PUBLIC__image/business6.png"><span>15项细致规范流程</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <img src="__PUBLIC__image/viewBg2.png" class="left">
+</div>
+<div class="localtips" style="height: 400px"></div>
+<div class="content_view">
+    <div class="content_box" style="position: relative;">
+        <img src="__PUBLIC__image/tit3.png" class="view_title">
+        <p>各类App/网站/桌面软件开发经验累积，快速抓住业务核心，放大您的优势</p>
+        <div class="example">
+            <ul>
+                <li class="list4">
+                    <div class="example_list">
+                        <div class="">
+                            <img src="__PUBLIC__image/exampleimg1.png">
+                        </div>
+                        <span>高新技术企业</span>
+                        <i>企业建站</i>
+                    </div>
+                </li>
+                <li class="list4">
+                    <div class="example_list">
+                        <div class="">
+                            <img src="__PUBLIC__image/exampleimg2.png">
+                        </div>
+                        <span>高新技术企业</span>
+                        <i>企业建站</i>
+                    </div>
+                </li>
+                <li class="list4">
+                    <div class="example_list">
+                        <div class="">
+                            <img src="__PUBLIC__image/exampleimg3.png">
+                        </div>
+                        <span>高新技术企业</span>
+                        <i>企业建站</i>
+                    </div>
+                </li>
+                <li class="list4">
+                    <div class="example_list">
+                        <div class="">
+                            <img src="__PUBLIC__image/exampleimg4.png">
+                        </div>
+                        <span>高新技术企业</span>
+                        <i>企业建站</i>
+                    </div>
+                </li>
+                <li class="list4">
+                    <div class="example_list">
+                        <div class="">
+                            <img src="__PUBLIC__image/exampleimg5.png">
+                        </div>
+                        <span>高新技术企业</span>
+                        <i>企业建站</i>
+                    </div>
+                </li>
+                <li class="list4">
+                    <div class="example_list">
+                        <div class="">
+                            <img src="__PUBLIC__image/exampleimg6.png">
+                        </div>
+                        <span>高新技术企业</span>
+                        <i>企业建站</i>
+                    </div>
+                </li>
+                <li class="list4">
+                    <div class="example_list">
+                        <div class="">
+                            <img src="__PUBLIC__image/exampleimg7.png">
+                        </div>
+                        <span>高新技术企业</span>
+                        <i>企业建站</i>
+                    </div>
+                </li>
+                <li class="list4">
+                    <div class="example_list">
+                        <div class="">
+                            <img src="__PUBLIC__image/exampleimg8.png">
+                        </div>
+                        <span>高新技术企业</span>
+                        <i>企业建站</i>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <a href="" class="more">更多案例+</a>
+    </div>
+    <img src="__PUBLIC__image/viewBg3.png" class="right">
+</div>
+<div class="localtips" style="height: 400px"></div>
+<div class="content_view">
+    <div class="content_box">
+        <img src="__PUBLIC__image/tit4.png" class="view_title">
+        <p>丰富的大型公司服务经验，各类行业佼佼者的选择</p>
+        <div class="partner">
+            <ul>
+                <li class="list6">
+                    <img class="partner_img" src="__PUBLIC__image/part1.png">
+                </li>
+                <li class="list6">
+                    <img class="partner_img" src="__PUBLIC__image/part2.png">
+                </li>
+                <li class="list6">
+                    <img class="partner_img" src="__PUBLIC__image/part3.png">
+                </li>
+                <li class="list6">
+                    <img class="partner_img" src="__PUBLIC__image/part4.png">
+                </li>
+                <li class="list6">
+                    <img class="partner_img" src="__PUBLIC__image/part5.png">
+                </li>
+                <li class="list6">
+                    <img class="partner_img" src="__PUBLIC__image/part6.png">
+                </li>
+                <li class="list6">
+                    <img class="partner_img" src="__PUBLIC__image/part7.png">
+                </li>
+                <li class="list6">
+                    <img class="partner_img" src="__PUBLIC__image/part8.png">
+                </li>
+                <li class="list6">
+                    <img class="partner_img" src="__PUBLIC__image/part9.png">
+                </li>
+                <li class="list6">
+                    <img class="partner_img" src="__PUBLIC__image/part10.png">
+                </li>
+                <li class="list6">
+                    <img class="partner_img" src="__PUBLIC__image/part11.png">
+                </li>
+                <li class="list6">
+                    <img class="partner_img" src="__PUBLIC__image/part12.png">
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="localtips" style="height: 400px"></div>
+<div class="content_view" style="min-height: auto;padding: 0;">
+    <div class="sel_our">
+        <img src="__PUBLIC__image/selOurBg.png">
+        <div>
+            <h1>选择顶想，让我们实现您的创意！</h1>
+            <p>我们一直都在进步, 用自己的技术力量成就更多的客户，您的满意是我们前进的动力。 我们愿成为您可靠放心的合作伙伴。</p>
+            <a href="{:url('Contact/contant')}">联系我们</a>
+        </div>
+    </div>
+</div>
+<div class="localtips" style="height: 400px"></div>
+<div class="content_view">
+    <div class="content_box" style="position: relative;">
+        <img src="__PUBLIC__image/tit5.png" class="view_title">
+        <div class="massage">
+            <ul>
+                <li class="list3">
+                    <div class="massage_list">
+                        <h1>如何写出好的网站内容吸引用户</h1>
+                        <span>2018.12.24</span>
+                        <p>在互联网飞速发展的今天，网站是以传递信息和为用户提供有价值内容的首要传播途径， 但是，网站做的再好，不被广大网友发现还是枉然。在网站上线之后，网站内容的规划、编辑与更新是一个长期间巨的任务，尤其是原创 内容，内容是网站的根本，能给用户多少信息……，直接决定着</p>
+                        <a href="" title="查看详细"></a>
+                    </div>
+                </li>
+                <li class="list3">
+                    <div class="massage_list">
+                        <h1>如何写出好的网站内容吸引用户</h1>
+                        <span>2018.12.24</span>
+                        <p>在互联网飞速发展的今天，网站是以传递信息和为用户提供有价值内容的首要传播途径， 但是，网站做的再好，不被广大网友发现还是枉然。在网站上线之后，网站内容的规划、编辑与更新是一个长期间巨的任务，尤其是原创 内容，内容是网站的根本，能给用户多少信息……，直接决定着</p>
+                        <a href="" title="查看详细"></a>
+                    </div>
+                </li>
+                <li class="list3">
+                    <div class="massage_list">
+                        <h1>如何写出好的网站内容吸引用户</h1>
+                        <span>2018.12.24</span>
+                        <p>在互联网飞速发展的今天，网站是以传递信息和为用户提供有价值内容的首要传播途径， 但是，网站做的再好，不被广大网友发现还是枉然。在网站上线之后，网站内容的规划、编辑与更新是一个长期间巨的任务，尤其是原创 内容，内容是网站的根本，能给用户多少信息……，直接决定着</p>
+                        <a href="" title="查看详细"></a>
+                    </div>
+                </li>
+                <li class="list3">
+                    <div class="massage_list">
+                        <h1>如何写出好的网站内容吸引用户</h1>
+                        <span>2018.12.24</span>
+                        <p>在互联网飞速发展的今天，网站是以传递信息和为用户提供有价值内容的首要传播途径， 但是，网站做的再好，不被广大网友发现还是枉然。在网站上线之后，网站内容的规划、编辑与更新是一个长期间巨的任务，尤其是原创 内容，内容是网站的根本，能给用户多少信息……，直接决定着</p>
+                        <a href="" title="查看详细"></a>
+                    </div>
+                </li>
+                <li class="list3">
+                    <div class="massage_list">
+                        <h1>如何写出好的网站内容吸引用户</h1>
+                        <span>2018.12.24</span>
+                        <p>在互联网飞速发展的今天，网站是以传递信息和为用户提供有价值内容的首要传播途径， 但是，网站做的再好，不被广大网友发现还是枉然。在网站上线之后，网站内容的规划、编辑与更新是一个长期间巨的任务，尤其是原创 内容，内容是网站的根本，能给用户多少信息……，直接决定着</p>
+                        <a href="" title="查看详细"></a>
+                    </div>
+                </li>
+                <li class="list3">
+                    <div class="massage_list">
+                        <h1>如何写出好的网站内容吸引用户</h1>
+                        <span>2018.12.24</span>
+                        <p>在互联网飞速发展的今天，网站是以传递信息和为用户提供有价值内容的首要传播途径， 但是，网站做的再好，不被广大网友发现还是枉然。在网站上线之后，网站内容的规划、编辑与更新是一个长期间巨的任务，尤其是原创 内容，内容是网站的根本，能给用户多少信息……，直接决定着</p>
+                        <a href="" title="查看详细"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <a href="" class="more">更多动态+</a>
+    </div>
+</div>
+{include file="public/footer" /}
+<script type="text/javascript">
+    //切换方案，产品
+    var oHid=function(ele){
+        var oBis=document.getElementsByClassName('bisness');
+        var oTab=document.getElementsByName('tab_nol');
+        if(ele.className!="tab_sel"){
+            for(i=0;i<oTab.length;i++){
+                oTab[i].className="";
+            }
+            ele.className="tab_sel";
+            for(i=0;i<oBis.length;i++){
+                if (oBis[i].className=="bisness"){
+                    oBis[i].className="bisness bisness_none";
+                }else{
+                    oBis[i].className="bisness";
+                }
+            }
+        }
+
+    }
+</script>
+</body>
+</html>

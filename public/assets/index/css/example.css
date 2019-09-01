@@ -1,0 +1,346 @@
+/*banner*/
+.banner_1{
+	width: 100%;
+	height: 560px;
+	background: url(../image/banner_1_bg1.png) no-repeat center center;
+	background-size: cover;
+	padding-top: 1px;
+}
+.banner_1_cont{
+	width: 100%;
+	height: 100%;
+	background: rgba(18,25,41,0.3);
+	padding-top: 1px;
+	box-sizing: border-box;
+}
+.banner_1_cont h1{
+	line-height: 1;
+	margin-top: 200px;
+	font-size:52px;
+	font-weight: bold;
+	color:rgba(255,255,255,1);
+	text-align: center;
+}
+.banner_1_cont h2{
+	line-height: 1;
+	font-size:32px;
+	font-weight: normal;
+	color:rgba(255,255,255,1);
+	margin-top: 20px;
+	text-align: center;
+}
+/*条件筛选*/
+.condition{
+	padding-bottom: 38px;
+}
+.condition h1{
+	font-size:24px;
+	font-weight:bold;
+	color:rgba(18,25,41,1);
+	margin-top: 72px;
+	line-height: 1;
+	height: 24px;
+	margin-bottom: 28px;
+}
+.condition p a{
+	display: inline-block;
+	min-width: 64px;
+	height: 32px;
+	border-radius: 16px;
+	color: #121929;
+	padding: 0 8px;
+	box-sizing: border-box;
+	line-height: 32px;
+	text-align: center;
+	transition: all 0.25s;
+	margin-right: 24px;
+}
+.condition p a:hover{
+	color: #fff;
+	background:rgba(40,101,181,0.6);
+}
+.condition p a.sel{
+	color: #fff;
+	background: #2865B5 !important;
+}
+/*案例*/
+.example ul{
+	margin-top: 32px;
+}
+.example_list{
+	height: 337px;
+	background:#fff;
+	box-sizing: border-box;
+	border-bottom: 4px solid #fff;
+	transition: all 0.25s;
+	cursor: pointer;
+	margin:12px 0;
+}
+.example_list:hover{
+	border-bottom: 4px solid #2865B5;
+	box-shadow:0px 8px 12px 0px rgba(18,25,41,0.1);
+	margin-top: 0;
+}
+.example_list:hover > div > img{
+	transform: scale(1.06);
+	opacity: 1;
+}
+.example_list div{
+	width: 342px;
+	height: 256px;
+	background: #121929;
+	overflow: hidden;
+}
+.example_list div img{
+	width: 100%;
+	height: 100%;
+	display: block;
+	opacity: 0.66;
+	transition: all 0.5s ease-out;
+}
+.example_list span{
+	font-size:16px;
+	font-weight:bold;
+	color:rgba(18,25,41,1);
+	line-height: 1;
+	margin-top: 18px;
+	display: block;
+	margin-left: 16px;
+}
+.example_list i{
+	min-width:60px;
+	height:22px;
+	border:1px solid rgba(40,101,181,1);
+	border-radius:2px;
+	padding:0 6px;
+	box-sizing: border-box;
+	font-size:12px;
+	color:rgba(40,101,181,1);
+	line-height: 20px;
+	margin-top: 8px;
+	margin-left: 16px;
+	display:inline-block;
+}
+.example > p{
+	width:100%;
+	font-size:18px;
+	color:#61646C;
+	margin-top: 120px;
+	text-align: center;
+}
+.example > p > a{
+	color: #2865B5;
+	margin-left: 8px;
+}
+.example > p > a:hover{
+	color: #326fbf;
+}
+/*详情头部*/
+.example_til{
+	padding-top: 72px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #DCE0E6;
+}
+.example_til h1{
+	font-size:24px;
+	font-weight:bold;
+	color:rgba(18,25,41,1);
+	line-height:24px;
+}
+.example_til h1 span{
+	display: inline-block;
+	padding: 0 12px;
+	height:24px;
+	background:rgba(40,101,181,0.2);
+	border-radius:12px;
+	font-size:14px;
+	font-weight:400;
+	color:#2865B5 !important;
+	line-height:24px;
+	margin-left: 16px;
+	vertical-align: top;
+}
+.example_til i{
+	font-size:14px;
+	color:rgba(154,160,173,1);
+	line-height:14px;
+	margin-top: 12px;
+	display: block;
+}
+.example_til + p{
+	font-size:14px !important;
+	color:rgba(83,87,94,1);
+	line-height:24px !important;
+	margin-top: 32px !important;
+}
+.example_eva > img{
+	width: 100%;
+	margin-top: 32px;
+	display: block;
+	border:0 none;
+}
+.example_eva h2{
+	font-size:18px;
+	font-weight:bold;
+	color:rgba(83,87,94,1);
+	line-height:18px;
+	margin-top: 56px;
+}
+.example_eva div{
+	width: 100%;
+	padding:24px 20px;
+	background: #F7F9FC;
+	border-radius: 8px;
+	box-sizing: border-box;
+	position: relative;
+	margin-top: 16px;
+}
+.example_eva div:before{
+	display: block;
+	content: "";
+	width: 0;
+	height: 0;
+	border-width: 8px;
+	border-color: transparent transparent #F7F9FC transparent;
+	border-style: solid;
+	position: absolute;
+	top:-16px;
+	left:20px;
+}
+.example_eva div h1{
+	font-size:14px;
+	color:rgba(154,160,173,1);
+	line-height:14px;
+}
+.example_eva div h1 img{
+	display: inline-block;
+	width: 96px;
+	border:0 none;
+	margin-left: 4px;
+	vertical-align: top;
+}
+.example_eva div p{
+	font-size:14px;
+	color:rgba(83,87,94,1);
+	line-height:24px;
+	margin-top: 12px;
+}
+.example_eva + a{
+	width:160px;
+	height:64px;
+	background:rgba(40,101,181,1);
+	display: block;
+	margin: 0 auto;
+	margin-top:56px;
+	font-size:16px;
+	font-weight:bold;
+	color:rgba(255,255,255,1);
+	line-height:64px;
+	text-align: center;
+	transition: all 0.25s;
+}
+.example_eva + a:hover{
+	background:#2d74d2
+}
+@media (max-width: 1439px){
+	.banner_1{
+		height: 400px;
+	}
+	.banner_1_cont h1{
+		font-size: 40px;
+		margin-top: 144px;
+	}
+	.example_list {
+	    height: auto;
+	    padding-bottom: 12px;
+	    border-right: 2px solid #f7f9fc;
+	}
+	.example_list div{
+		width: auto;
+		height: auto;
+	}
+	.step ul.right_float li{
+		margin-right:0px;
+	}
+}
+/*768-1200*/
+@media (max-width: 1199px){
+
+}
+/*480-768*/
+@media (max-width: 768px){
+	.banner_1_cont h1{
+		font-size: 32px;
+	}
+	.banner_1_cont h2{
+		font-size: 20px;
+	}
+	.banner_1_cont a{
+		width: 200px;
+		height: 56px;
+		font-size: 18px;
+		line-height: 56px;
+	}
+	.condition p a{
+		margin-right: 8px;
+		font-size: 14px;
+		height: 28px;
+		line-height: 28px;
+		min-width: auto;
+	}
+	.condition h1{
+		margin-top: 48px;
+		margin-bottom: 24px;
+	}
+	.example > p{
+		margin-top: 48px;
+	}
+	.example_til{
+		padding-top: 32px;
+	}
+	.example_til h1{
+		padding-bottom: 36px;
+		position: relative;
+	}
+	.example_til h1 span{
+		position: absolute;
+	    bottom: 0px;
+	    width: auto;
+	    left: 0;
+	    margin-left: 0;
+	}
+}
+/*小于480*/
+@media (max-width: 480px){
+	.banner_1_cont h1{
+		font-size: 24px;
+		margin-top: 132px;
+	}
+	.banner_1{
+		height: 320px;
+	}
+	.banner_1_cont h2{
+		font-size: 14px;
+	}
+	.banner_1_cont a{
+		width: 144px;
+		height: 44px;
+		line-height: 44px;
+		font-size:16px;
+		margin-top: 40px;
+	}
+	.content_view > div > p.tab_box{
+		display: -webkit-box;
+		overflow-x: scroll;
+		-webkit-overflow-scrolling:touch;
+		white-space: nowrap;
+		overflow-y: hidden;
+		height: 28px;
+		width: 100%;
+		padding:4px 0;
+	}
+	.example_eva + a{
+		height: 56px;
+		line-height: 56px;
+	}
+}

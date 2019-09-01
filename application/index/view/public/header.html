@@ -1,0 +1,30 @@
+
+<div class="header" id="header">
+    <!-- 页眉 共通 -->
+    <div class="header_nol header_fix">
+        <img src="__PUBLIC__image/logo_r.png" alt="顶想网络">
+        <img src="__PUBLIC__image/more_btn.png" class="header_more_btn" onclick="headH()">
+        <div id="tabBox" class="header_hid">
+            <ul>
+                <li><span><a href="/">首页</a></span></li>
+                {foreach name="arr" item="vo"}
+                {if condition="$vo.child"}
+                <li class="child_nav">
+						<span>
+							<a href="{$vo.url}">{$vo.name}</a>
+						</span>
+                    <div class="hidNav">
+                        {foreach name="$vo.child" item="vs"}
+                        <a href="{$vs.url}">{$vs.name}</a>
+                        {/foreach}
+                    </div>
+                </li>
+                {else/}
+                <li><span><a href="{$vo.url}">{$vo.name}</a></span></li>
+                {/if}
+                {/foreach}
+            </ul>
+            <a href="">我要定制方案</a>
+        </div>
+    </div>
+</div>
